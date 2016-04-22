@@ -1,7 +1,7 @@
 # Site
 title:              Ben Gebre-Medhin
-bio:                'PhD Candidate, Sociology, UC Berkeley'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+bio:                'PhD Candidate in Sociology, UC Berkeley'
+description:        "I am a PhD Candidate in Sociology at UC Berkeley focusion on Higher Education, Organizations, and Technology."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -36,7 +36,7 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:				beniam@berkeley.edu
 #twitter:            username
 #facebook:           username
 #github:             username
