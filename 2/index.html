@@ -3,18 +3,21 @@
 
 	<head>
 		<title>Ben Gebre-Medhin</title>
+		<script src="jquery.js"></script> 
+		<script> 
+		$(function(){
+			$("#includedContent").load("menu.html"); 
+		});
+		</script>
 	</head>
 
 	<body>
 
 		<!-- Header -->
 			<header id="header">
-				<script src="jquery.js"></script> 
-				<script> 
-				$(function(){
-					$("#includedContent").load("menu.html"); 
-				});
-				</script> 
+ 
+			
+				<div id="includedContent"></div>
 			</header>
 
 
