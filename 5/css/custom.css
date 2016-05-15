@@ -276,6 +276,10 @@ div.figure {
   padding: 0.5em;
 }
 
+div.figure img {
+	width: 90%; 
+}
+
 div.figure p {
   text-align: center;
   font-style: italic;
