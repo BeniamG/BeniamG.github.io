@@ -59,7 +59,8 @@ a:hover {
 }
 
 .menu-panel {
-	background: #f1103a;
+	/* background: #f1103a; */
+	background: #333
 	width: 240px;
 	height: 100%;
 	position: fixed;
@@ -93,13 +94,18 @@ a:hover {
 	line-height: 3.5;
 	padding: 0 20px;
 	cursor: pointer;
-	background: #f1103a;
-	border-bottom: 1px solid #dd1338;
+	/* background: #f1103a; */
+	background: #333;
+	/* border-bottom: 1px solid #dd1338; */
+	border-bottom: 1px solid #333;
+
 }
 
 .menu-toc li a:hover,
 .menu-toc li.menu-toc-current a{
-	background: #dd1338;
+	/* background: #dd1338; */
+	/* background: #333; */
+
 }
 
 .menu-panel div {
