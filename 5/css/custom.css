@@ -270,14 +270,14 @@ a:hover {
 
 div.figure {
   float: right;
-  width: 250px;
+  width: 300px;
   border: thin silver solid;
   margin: 0.5em;
   padding: 0.5em;
 }
 
 div.figure img {
-	width: 90%; 
+	width: 100%; 
 }
 
 div.figure p {
