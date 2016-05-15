@@ -274,7 +274,7 @@ div.figure {
   width: 30%;
   border: thin silver solid;
   margin: 0.5em;
-  padding: 5px 8%;
+  padding: 0.5em;
 }
 
 div.figure p {
@@ -282,4 +282,5 @@ div.figure p {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
+  padding: 5px 8%;
 }
