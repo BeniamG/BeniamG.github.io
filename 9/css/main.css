@@ -134,7 +134,7 @@ nav.main-nav a {
     font-size:20px;
     text-decoration:none;
     display:inline-block;
-    padding:15px 19px;
+    padding:10px 19px; 	/* change first number from 15 to 10. */
     color:#27ae60;
 
 }
