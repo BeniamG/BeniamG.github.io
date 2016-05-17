@@ -236,7 +236,7 @@ nav.main-nav.stickytop {
 
 @media screen and (max-width: 360px) {
     header {
-        padding:5px 0 55px;
+        padding:55px 0 25px; /* I changed these */
     }
     
 	h1 {
