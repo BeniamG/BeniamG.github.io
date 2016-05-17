@@ -234,3 +234,30 @@ nav.main-nav.stickytop {
     }
 }
 
+@media screen and (max-width: 360px) {
+    header {
+        padding:5px 0 55px;
+    }
+    
+    nav.main-nav a {
+        font-size:5px;
+    }
+    
+    nav.main-nav {
+        height:55px;
+    }
+    
+    .container {
+        width:92%;
+    }
+
+    .content {
+/*        width:80%;  I played with adding this */
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
