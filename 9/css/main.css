@@ -155,10 +155,10 @@ nav.main-nav.stickytop {
 /* CONTENT */
 /***********************************************************************************************/
 .content {
-    margin: auto;
+    margin:auto;
 	color:#222;
     padding:50px;
-	width: 600px;
+	width:600px;
 /*    -webkit-column-count:3;
  Chrome, Safari, Opera */
 /*    -moz-column-count:3;
@@ -206,9 +206,9 @@ nav.main-nav.stickytop {
     nav.main-nav {
         height:55px;
     }
-    
+    /* changed from "margin:0 auto;" to "margin: auto;" */
     .container {
-        margin:0 auto;
+        margin:auto;
         width:50%;
         
     }
