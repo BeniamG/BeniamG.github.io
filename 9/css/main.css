@@ -239,8 +239,16 @@ nav.main-nav.stickytop {
         padding:5px 0 55px;
     }
     
+	h1 {
+	    font-size:30px;
+	}
+	
+	h3 {
+	    font-size:15px;
+	}
+	
     nav.main-nav a {
-        font-size:5px;
+        font-size:10px;
     }
     
     nav.main-nav {
