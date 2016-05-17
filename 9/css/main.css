@@ -155,7 +155,8 @@ nav.main-nav.stickytop {
 /* CONTENT */
 /***********************************************************************************************/
 .content {
-    color:#222;
+    margin: auto;
+	color:#222;
     padding:50px;
 	width: 800px;
 /*    -webkit-column-count:3;
