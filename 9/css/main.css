@@ -157,6 +157,25 @@ nav.main-nav.stickytop {
 .content {
     color:#222;
     padding:50px;
+	width: 800px;
+/*    -webkit-column-count:3;
+ Chrome, Safari, Opera */
+/*    -moz-column-count:3;
+ Firefox */
+/*    column-count:3;
+    -webkit-column-gap:40;
+    column-gap:40px;
+*/
+}
+
+.content h2 {
+    margin:0;
+}
+
+@media DISABLED-ORIGINAL {
+.content {
+    color:#222;
+    padding:50px;
     -webkit-column-count:3;
 /* Chrome, Safari, Opera */
     -moz-column-count:3;
@@ -169,7 +188,7 @@ nav.main-nav.stickytop {
 .content h2 {
     margin:0;
 }
-
+}
 /***********************************************************************************************/
 /* RESPONSIVE */
 /***********************************************************************************************/
