@@ -214,6 +214,11 @@ nav.main-nav.stickytop {
     
     .content {
         width:80%;
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
     }
 }
 
@@ -239,6 +244,11 @@ nav.main-nav.stickytop {
 
     .content {
         width:80%;
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
     }
 }
 
