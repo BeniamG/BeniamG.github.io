@@ -45,6 +45,8 @@ textarea {
 /***********************************************************************************************/
 /* GENERAL */
 /***********************************************************************************************/
+
+/* This dictates the background color and features of the main body of the page */
 body {
     font:16px/1.5 'Raleway',Arial,sans-serif;
     color:#fff;
@@ -59,6 +61,7 @@ h1 {
     font-weight:700
 }
 
+/* MAYBE This color marks the background of the header. original #27ae60 is green. */
 span {
     color:#27ae60;
     font-weight:700
@@ -70,12 +73,21 @@ h2 {
     margin-left:-20px
 }
 
+h3 {
+    font-size:20px;
+    font-weight:300;
+    text-align:center;
+	font-style: italic;
+    font-weight:700
+}
+
 nav.demo-nav {
     width:350px;
     margin:0 auto;
     display:block
 }
 
+/* Not sure what this is. original #27ae60 is green. */
 nav.demo-nav a {
     font-size:19px;
     display:inline-block;
@@ -93,6 +105,7 @@ nav.demo-nav a {
     border-radius:none
 }
 
+/* This changed charactorisitcs of a main button for mouseover or selection. original #27ae60 is green. original #ecf0f1 is very light green. */
 nav a.active,nav a:hover {
     background:#ecf0f1;
     color:#27ae60
@@ -101,6 +114,7 @@ nav a.active,nav a:hover {
 /***********************************************************************************************/
 /* HEADER AND NAV */
 /***********************************************************************************************/
+/* Not sure what this is. original #2ecc71 is green. */
 header {
     height:250px;
     background:#2ecc71;
