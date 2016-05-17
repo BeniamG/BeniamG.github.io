@@ -73,6 +73,7 @@ h2 {
     margin-left:-20px
 }
 
+/* I added this class for the subheading below my name. */
 h3 {
     font-size:20px;
     font-weight:300;
@@ -155,27 +156,8 @@ nav.main-nav.stickytop {
 /* CONTENT */
 /***********************************************************************************************/
 .content {
-    margin:auto;
+/*    margin:auto;  This tries to center the main body text. */
 	color:#222;
-    padding:50px;
-	width:600px;
-/*    -webkit-column-count:3;
- Chrome, Safari, Opera */
-/*    -moz-column-count:3;
- Firefox */
-/*    column-count:3;
-    -webkit-column-gap:40;
-    column-gap:40px;
-*/
-}
-
-.content h2 {
-    margin:0;
-}
-
-@media DISABLED-ORIGINAL {
-.content {
-    color:#222;
     padding:50px;
     -webkit-column-count:3;
 /* Chrome, Safari, Opera */
@@ -189,7 +171,7 @@ nav.main-nav.stickytop {
 .content h2 {
     margin:0;
 }
-}
+
 /***********************************************************************************************/
 /* RESPONSIVE */
 /***********************************************************************************************/
@@ -213,7 +195,7 @@ nav.main-nav.stickytop {
     }
     
     .content {
-        width:80%;
+/*         width:80%;    I played with adding this*/
         -webkit-column-count:1;
         /* Chrome, Safari, Opera */
         -moz-column-count:1;
@@ -243,7 +225,7 @@ nav.main-nav.stickytop {
     }
 
     .content {
-        width:80%;
+/*        width:80%;  I played with adding this */
         -webkit-column-count:1;
         /* Chrome, Safari, Opera */
         -moz-column-count:1;
