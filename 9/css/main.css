@@ -214,7 +214,7 @@ nav.main-nav.stickytop {
     }
     
     .content {
-        width:90%;
+        width:80%;
         -webkit-column-count:1;
         /* Chrome, Safari, Opera */
         -moz-column-count:1;
@@ -242,9 +242,9 @@ nav.main-nav.stickytop {
     .container {
         width:92%;
     }
-    
+
     .content {
-        width:90%;
+        width:80%;
         -webkit-column-count:1;
         /* Chrome, Safari, Opera */
         -moz-column-count:1;
