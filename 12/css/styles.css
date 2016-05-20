@@ -33,9 +33,9 @@ img {
 header {
 
 	background: #fff;
-	width: 50%;
+	width: 100%; /* This fixes the width of the menu */
 	height: 76px;
-	position: fixed;
+	position: bottom; /* This fixes the position of the menu */
 	top: 0;
 	left: 0;
 	border-bottom: 4px solid #4C9CF1;
