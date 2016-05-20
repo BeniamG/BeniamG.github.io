@@ -100,7 +100,7 @@ li {
 section {
 
 	margin: 80px auto 40px;
-	max-width: 980px;
+	max-width: 600px; /* I think this sets the maximum width of the page content */
 	position: relative;
 	padding: 20px
 
