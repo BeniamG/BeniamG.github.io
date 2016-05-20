@@ -38,7 +38,7 @@ header {
 	height: 76px; /* This fixes the height of the menu  on large screens.  It is not automatically connected to the content below. */
 	position: fixed; /* This fixes the position of the menu on large screens */
 	top: 0; /* This, in addition to "left" variable below makes the starting position of the menue in the upper left corner. */
-	left: 0; /* see above variable comment for "top" */
+/*	left: 0;  If I remove this will it center? see above variable comment for "top" */
 	/* border-bottom: 4px solid #4C9CF1;  I removed this to eliminate the blue line below the menu. */
 	z-index: 100; /* dictactes stack order.  High Values put it on top of other elements: http://www.w3schools.com/cssref/pr_pos_z-index.asp */
 
