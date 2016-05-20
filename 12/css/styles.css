@@ -34,6 +34,7 @@ header {
 
 	background: #fff;
 	width: 100%; /* This fixes the width of the menu  on large screens */
+	max-width: 700px;
 	height: 76px; /* This fixes the height of the menu  on large screens.  It is not automatically connected to the content below. */
 	position: fixed; /* This fixes the position of the menu on large screens */
 	top: 0; /* This, in addition to "left" variable below makes the starting position of the menue in the upper left corner. */
@@ -131,7 +132,8 @@ p {
 
 	header {
 
-/*		position: absolute;  */
+/*		position: absolute;  This element determines if the nav stays at the top when scorling. */
+
 
 	}
 
