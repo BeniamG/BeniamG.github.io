@@ -34,12 +34,12 @@ header {
 
 	background: #fff;
 	width: 100%; /* This fixes the width of the menu  on large screens */
-	height: 306px; /* 76 This fixes the width of the menu  on large screens */
+	height: 76px; /* This fixes the height of the menu  on large screens.  It is not automatically connected to the content below. */
 	position: fixed; /* This fixes the position of the menu on large screens */
-	top: 0;
-	left: 0;
-	border-bottom: 4px solid #4C9CF1;
-	z-index: 100;
+	top: 0; /* This, in addition to "left" variable below makes the starting position of the menue in the upper left corner. */
+	left: 0; /* see above variable comment for "top" */
+	/* border-bottom: 4px solid #4C9CF1;  I removed this to eliminate the blue line below the menu. */
+	z-index: 100; /* dictactes stack order.  High Values put it on top of other elements: http://www.w3schools.com/cssref/pr_pos_z-index.asp */
 
 }
 
