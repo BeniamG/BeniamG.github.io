@@ -194,11 +194,12 @@ nav.main-nav.stickytop {
         height:55px;
     }
 
-    .container {
+/*    .container {
         margin:0 auto;
         width:50%;
     }
-    
+*/
+/* This is from the dropdown menu script */ 
 	nav.main-nav {
 		position: relative;
 		min-height: 40px;
