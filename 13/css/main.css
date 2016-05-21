@@ -1,0 +1,272 @@
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+html,button,input,select,textarea {
+    color:#222
+}
+
+html {
+    font-size:1em;
+    line-height:1.4
+}
+
+::-moz-selection {
+    background:#b3d4fc;
+    text-shadow:none
+}
+
+::selection {
+    background:#b3d4fc;
+    text-shadow:none
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #ccc;
+    margin:1em 0;
+    padding:0
+}
+
+audio,canvas,img,video {
+    vertical-align:middle
+}
+
+fieldset {
+    border:0;
+    margin:0;
+    padding:0
+}
+
+textarea {
+    resize:vertical
+}
+
+/***********************************************************************************************/
+/* GENERAL */
+/***********************************************************************************************/
+
+/* This dictates the background color and features of the main body of the page */
+body {
+    font:16px/1.5 'Raleway',Arial,sans-serif;
+    color:#fff;
+    margin:0;
+    padding:0
+}
+
+h1 {
+    font-size:50px;
+    font-weight:300;
+    text-align:center;
+    font-weight:700
+}
+
+/* MAYBE This color marks the background of the header. original #27ae60 is green. */
+span {
+    color:#27ae60;
+    font-weight:700
+}
+
+h2 {
+    font-size:35px;
+    text-align:left;
+    margin-left:-20px
+}
+
+/* I added this class for the subheading below my name. */
+h3 {
+    font-size:20px;
+    font-weight:300;
+    text-align:center;
+	font-style: italic;
+    font-weight:700
+}
+
+nav.demo-nav {
+    width:350px;
+    margin:0 auto;
+    display:block
+}
+
+/* Not sure what this is. original #27ae60 is green. */
+nav.demo-nav a {
+    font-size:19px;
+    display:inline-block;
+    text-align:center;
+    font-family:'Lato',sans-serif;
+    color:#27ae60;
+    font-weight:400;
+    padding:5px 15px;
+    text-transform:uppercase;
+    border-radius:2px;
+    letter-spacing:1px;
+    text-decoration:none;
+    margin-right:10px;
+    border:2px solid #ecf0f1;
+    border-radius:none
+}
+
+/* This changed charactorisitcs of a main button for mouseover or selection. original #27ae60 is green. original #ecf0f1 is very light green. */
+nav a.active,nav a:hover {
+    background:#ecf0f1;
+    color:#27ae60
+}
+
+/***********************************************************************************************/
+/* HEADER AND NAV */
+/***********************************************************************************************/
+/* Not sure what this is. original #2ecc71 is green. */
+header {
+    height:250px;
+    background:#2ecc71;
+    padding:23px 0
+}
+
+nav.main-nav {
+    background:#fff;
+    height:60px;
+    border-bottom:1px solid #dadada;
+    text-align: center;
+}
+
+nav.main-nav a {
+    font-family:'Lato',sans-serif;
+    font-size:20px;
+    text-decoration:none;
+    display:inline-block;
+    padding:10px 19px; 	/* change first number from 15 to 10. */
+    color:#27ae60;
+
+}
+
+
+nav.main-nav.stickytop {
+    position:fixed;
+    top:0;
+    width: 100%; 
+}
+
+.container {
+    display: inline;
+    margin:0 auto;
+  
+}
+
+/***********************************************************************************************/
+/* CONTENT */
+/***********************************************************************************************/
+.content {
+/*    margin:auto;  This tries to center the main body text. */
+	color:#222;
+    padding:50px;
+    -webkit-column-count:3;
+/* Chrome, Safari, Opera */
+    -moz-column-count:3;
+/* Firefox */
+    column-count:3;
+    -webkit-column-gap:40;
+    column-gap:40px;
+}
+
+.content h2 {
+    margin:0;
+}
+
+/***********************************************************************************************/
+/* RESPONSIVE */
+/***********************************************************************************************/
+
+@media all and (min-width: 360px) and (max-width: 480px) { 
+    header {
+        padding:5px 0 55px;
+    }
+    
+    nav.main-nav a {
+        font-size:17px;
+    }
+    
+    nav.main-nav {
+        height:55px;
+    }
+
+    .container {
+        margin:0 auto;
+        width:50%;
+    }
+    
+    .content {
+/*         width:80%;    I played with adding this*/
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    header {
+        padding:5px 0 55px;
+    }
+    
+    nav.main-nav a {
+        font-size:17px;
+    }
+    
+    nav.main-nav {
+        height:55px;
+    }
+    
+    .container {
+        width:92%;
+    }
+
+    .content {
+/*        width:80%;  I played with adding this */
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        padding:55px 0 25px; /* I changed these */
+    }
+    
+	h1 {
+	    font-size:30px;
+	}
+	
+	h3 {
+	    font-size:15px;
+	}
+	
+    nav.main-nav a {
+        font-size:10px;
+	    padding:20px 10px;
+    }
+    
+    nav.main-nav {
+        height:55px;
+    }
+    
+    .container {
+        width:92%;
+    }
+
+    .content {
+/*        width:80%;  I played with adding this */
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
