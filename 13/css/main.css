@@ -185,7 +185,7 @@ nav.main-nav.stickytop {
 /* RESPONSIVE */
 /***********************************************************************************************/
 
-@media all and (min-width: 360px) and (max-width: 480px) { 
+@media all and (max-width: 600px) { 
     header {
         padding:5px 0 55px;
     }
@@ -202,6 +202,7 @@ nav.main-nav.stickytop {
         margin:0 auto;
         width:50%;
     }
+ 
     
     .content {
 /*         width:80%;    I played with adding this*/
@@ -211,71 +212,55 @@ nav.main-nav.stickytop {
         /* Firefox */
         column-count:1;
     }
-}
+	
+	nav.main-nav {
+		position: relative;
+		min-height: 40px;
+	}	
+	nav.main-nav ul {
+		width: 180px;
+		padding: 5px 0;
+		position: absolute;
+		top: 0;
+		left: auto;
+		right: 0;
+		border: solid 1px #aaa;
+		background: #fff url(images/icon-menu.png) no-repeat 10px 11px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+	nav.main-nav li {
+		display: none; /* hide all <li> items */
+		margin: 0;
+	}
+	nav.main-nav .current {
+		display: block; /* show only current <li> item */
+	}
+	nav.main-nav a {
+		display: block;
+		padding: 5px 5px 5px 32px;
+		text-align: left;
+	}
+	nav.main-nav .current a {
+		background: none;
+		color: #666;
+	}
 
-
-
-
-@media screen and (max-width: 480px) {
-    header {
-        padding:5px 0 55px;
-    }
-    
-    nav.main-nav a {
-        font-size:17px;
-    }
-    
-    nav.main-nav {
-        height:55px;
-    }
-    
-    .container {
-        width:92%;
-    }
-
-    .content {
-/*        width:80%;  I played with adding this */
-        -webkit-column-count:1;
-        /* Chrome, Safari, Opera */
-        -moz-column-count:1;
-        /* Firefox */
-        column-count:1;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    header {
-        padding:55px 0 25px; /* I changed these */
-    }
-    
-	h1 {
-	    font-size:30px;
+	/* on nav hover */
+	nav.main-nav ul:hover {
+		background-image: none;
+	}
+	nav.main-nav ul:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	nav.main-nav ul:hover .current {
+		background: url(images/icon-check.png) no-repeat 10px 7px;
 	}
 	
-	h3 {
-	    font-size:15px;
-	}
 	
-    nav.main-nav a {
-        font-size:10px;
-	    padding:20px 10px;
-    }
-    
-    nav.main-nav {
-        height:55px;
-    }
-    
-    .container {
-        width:92%;
-    }
-
-    .content {
-/*        width:80%;  I played with adding this */
-        -webkit-column-count:1;
-        /* Chrome, Safari, Opera */
-        -moz-column-count:1;
-        /* Firefox */
-        column-count:1;
-    }
+	
 }
+
+
 
