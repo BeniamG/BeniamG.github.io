@@ -226,7 +226,7 @@ nav.main-nav.stickytop {
 	nav.main-nav a {
 		display: block;
 		padding: 5px 5px 5px 32px;
-		text-align: left;
+		text-align: center;
 	}
 	nav.main-nav .current a {
 		background: none;
