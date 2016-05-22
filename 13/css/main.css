@@ -122,6 +122,10 @@ header {
     padding:23px 0
 }
 
+div.name-title-div {
+    position: relative
+}
+
 img.name-title {
 	display: block;
 	margin-left: auto;
@@ -129,12 +133,9 @@ img.name-title {
 	width: 100%;
 	height: auto;
 	max-width: 700px;
+    vertical-align: middle;
 }
-
-div.name-title-div {
-    position: relative
-}
-
+/*
 div.name-title-div img {
     margin: 0;
     background: yellow;
@@ -144,7 +145,7 @@ div.name-title-div img {
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
-
+*/
 nav.main-nav {
     background:#fff;
     height:60px;
@@ -156,9 +157,7 @@ nav.main-nav li {
 	display: inline-block;
 /*	float: left;   */
 /*	padding: 10px  */
-
 }
-
 
 nav.main-nav a {
     font-family:'Lato',sans-serif;
@@ -167,7 +166,6 @@ nav.main-nav a {
     display:inline-block;
     padding:10px 19px; 	/* change first number from 15 to 10. */
     color:#27ae60;
-
 }
 
 
