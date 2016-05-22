@@ -122,6 +122,14 @@ header {
     padding:23px 0
 }
 
+img.name-title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+}
+
 nav.main-nav {
     background:#fff;
     height:60px;
