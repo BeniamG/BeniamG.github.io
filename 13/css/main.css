@@ -186,10 +186,10 @@ nav.main-nav.stickytop {
 /***********************************************************************************************/
 
 @media all and (max-width: 600px) { 
-    header {
+/*    header {
         padding:5px 0 55px;
     }
-    
+ */   
     nav.main-nav {
         height:55px;
     }
