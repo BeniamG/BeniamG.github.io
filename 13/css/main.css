@@ -130,7 +130,6 @@ nav.main-nav {
 }
 
 nav.main-nav li {
-
 	display: inline-block;
 /*	float: left;   */
 /*	padding: 10px  */
@@ -209,8 +208,12 @@ nav.main-nav.stickytop {
 		width: 180px;
 /*		padding: 5px 0;  */
 		position: absolute;
-		top: 0;
-		left: auto;
+	    left: 0;
+	    top: 50%;
+	    width: 100%;
+	    text-align: center;
+/*		top: 0;   */
+/*		left: auto;   */
 /*		right: 0;  */
 		border: solid 1px #aaa;
 		background: #fff url(images/icon-menu.png) no-repeat 10px 11px;
