@@ -210,9 +210,9 @@ nav.main-nav.stickytop {
 		position: absolute;
 	    left: 0;
 	    top: 50%;
-	    width: 100%;
+/*	    width: 100%;          */
 	    text-align: center;
-/*		top: 0;   */
+		top: 0;   */
 /*		left: auto;   */
 /*		right: 0;  */
 		border: solid 1px #aaa;
