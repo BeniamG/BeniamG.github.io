@@ -167,13 +167,7 @@ nav.main-nav.stickytop {
 /*    margin:auto;  This tries to center the main body text. */
 	color:#222;
     padding:50px;
-    -webkit-column-count:3;
-/* Chrome, Safari, Opera */
-    -moz-column-count:3;
-/* Firefox */
-    column-count:3;
-    -webkit-column-gap:40;
-    column-gap:40px;
+	max-width:800px;
 }
 
 .content h2 {
