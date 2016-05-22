@@ -203,6 +203,7 @@ nav.main-nav.stickytop {
 	nav.main-nav {
 		position: relative;
 		min-height: 30px;
+	    text-align: center;
 	}	
 	nav.main-nav ul {
 		width: 180px;
