@@ -127,15 +127,26 @@ div.name-title-div {
 }
 
 img.name-title {
+	width: 100%;
+	max-width: 700px;
+	height: auto;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*
+img.name-title {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	height: auto;
 	max-width: 700px;
+	height: auto;
     vertical-align: middle;
 }
-/*
+
 div.name-title-div img {
     margin: 0;
     background: yellow;
