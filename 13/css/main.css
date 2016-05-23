@@ -96,7 +96,7 @@ nav a.active,nav a:hover {
 header {
     height:250px;
     background:#2ecc71;
-    padding:23px 0
+    padding:230px 0;  /* Playing with this to test spacing of menu. Originally 23px */
 }
 
 /* the next two blocks ensure my name and title are centered */
