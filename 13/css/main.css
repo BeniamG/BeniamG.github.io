@@ -192,8 +192,14 @@ nav.main-nav.stickytop {
         width:50%;
     }
 */
+/* I added this header section to integrate original styling back in */ 
+    header {
+           padding:5px 0 55px;
+       }
+
 /* This is from the dropdown menu script */ 
 	nav.main-nav {
+        height:55px;  /* I added this to integrate original styling back in */ 
 		position: relative;
 		min-height: 30px;
 	    text-align: center;
