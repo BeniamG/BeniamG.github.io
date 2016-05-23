@@ -197,7 +197,7 @@ nav.main-nav.stickytop {
 		
 	nav.main-nav ul {
 	    margin: 0;
-	    background: green;    /********** changed this property to to test other changes **********/
+	    background: purple;    /********** changed this property to to test other changes **********/
 	    position: absolute;
 		width: 50%;
 		height: auto;
