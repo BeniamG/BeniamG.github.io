@@ -81,14 +81,15 @@ h3 {
 	font-style: italic;
     font-weight:700
 }
-
+/*
 nav.demo-nav {
     width:350px;
     margin:0 auto;
     display:block
 }
-
+*/
 /* Not sure what this is. original #27ae60 is green. */
+/*
 nav.demo-nav a {
     font-size:19px;
     display:inline-block;
@@ -105,7 +106,7 @@ nav.demo-nav a {
     border:2px solid #ecf0f1;
     border-radius:none
 }
-
+*/
 /* This changed charactorisitcs of a main button for mouseover or selection. original #27ae60 is green. original #ecf0f1 is very light green. */
 nav a.active,nav a:hover {
     background:#ecf0f1;
@@ -122,24 +123,24 @@ header {
     padding:23px 0
 }
 
-/*
+
 div.name-title-div {
+    height:250px;
     position: relative
 }
-*/
+
 
 img.name-title {
-	display: block;
-	background: yellow;
+    margin: 0;
+    background: red;
     position: absolute;
-	margin-left: auto;
-	margin-right: auto;
 	width: 100%;
 	max-width: 700px;
 	height: auto;
-    vertical-align: middle;
-    position: relative;
     top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
 /*
