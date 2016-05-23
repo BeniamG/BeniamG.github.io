@@ -82,13 +82,6 @@ h3 {
     font-weight:700
 }
 
-/* This changed charactorisitcs of a main button for mouseover or selection. original #27ae60 is green. 
-original #ecf0f1 is very light green. not sure if this is for the buttons i already cut. #ecf0f1 #27ae60 */
-nav a.active,nav a:hover {
-    background:red;
-    color:#27ae60
-}
-
 /***********************************************************************************************/
 /* HEADER */
 /***********************************************************************************************/
@@ -107,7 +100,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: red;    /********** changed this property to to test other changes **********/
+    background: orange;    /********** changed this property to to test other changes **********/
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -121,7 +114,7 @@ img.name-title {
 /***********************************************************************************************/
 /* NAV */
 /***********************************************************************************************/
-/* MOVED FROM AFTER nav.main-nav.stickytop It might make sense to move this up given the order of the html: 1.container 2.main-nav 3.ul 4.li 5.current. */
+/* MOVED FROM AFTER nav.main-nav.stickytop This doesn't seem to screw anything up and is logical. */
 .container {
     display: inline;
     margin:0 auto;  /* this might need a bottom margin, after the auto */
@@ -129,7 +122,7 @@ img.name-title {
 
 nav.main-nav {
     background:#fff;
-    height:50px;   /* changed from 60px to 50px */
+    height:50px;  /* changing this does seem to fix the default menu size but screws up other layouts */
     border-bottom:1px solid #dadada;
     text-align: center;
 }
@@ -148,6 +141,13 @@ nav.main-nav a {
     color:#27ae60;
 }
 
+/* This changed charactorisitcs of a main button for mouseover or selection. original #27ae60 is green. 
+original #ecf0f1 is very light green. not sure if this is for the buttons i already cut. #ecf0f1 #27ae60 */
+nav a.active,nav a:hover {
+    background:red;
+    color:#27ae60
+}
+
 /***********************************************************************************************/
 /* STICKY NAV */
 /***********************************************************************************************/
@@ -156,7 +156,6 @@ nav.main-nav.stickytop {
     top:0;
     width: 100%; 
 }
-
 
 /***********************************************************************************************/
 /* CONTENT */
