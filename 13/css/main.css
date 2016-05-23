@@ -83,9 +83,9 @@ h3 {
 }
 
 /* This changed charactorisitcs of a main button for mouseover or selection. original #27ae60 is green. 
-original #ecf0f1 is very light green. not sure if this is for the buttons i already cut. */
+original #ecf0f1 is very light green. not sure if this is for the buttons i already cut. #ecf0f1 #27ae60 */
 nav a.active,nav a:hover {
-    background:#ecf0f1;
+    background:red;
     color:#27ae60
 }
 
