@@ -100,7 +100,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: purple;    /********** changed this property to to test other changes **********/
+    background: green;    /********** changed this property to to test other changes **********/
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -144,7 +144,7 @@ nav.main-nav a {
 /* This and next block relate to the buttons I cut AS WELL AS nav menu links. updated for detialed edits.  */
 nav a.active {
     background:red; /*  doesn't seem to work*/
-    color:purple;
+    color:purple;   /*  doesn't seem to work*/
 }
 
 nav a:hover {
@@ -178,7 +178,6 @@ nav.main-nav.stickytop {
 /***********************************************************************************************/
 /* RESPONSIVE */
 /***********************************************************************************************/
-
 @media all and (max-width: 600px) { 
 /*    header {
         padding:5px 0 55px;
