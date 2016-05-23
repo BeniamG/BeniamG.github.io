@@ -107,7 +107,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: blue;
+    background: green;
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -128,8 +128,8 @@ nav.main-nav {
     text-align: center;
 }
 
-/* This makes it a flat menu (display: inline-block).  Changed from li. The padding elements screw up display. */
-nav.main-nav ul {
+/* This makes it a flat menu (display: inline-block).  The padding elements screw up display. */
+nav.main-nav li {
 	display: inline-block;
 }
 
