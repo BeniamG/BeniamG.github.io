@@ -81,33 +81,9 @@ h3 {
 	font-style: italic;
     font-weight:700
 }
-/*
-nav.demo-nav {
-    width:350px;
-    margin:0 auto;
-    display:block
-}
-*/
-/* Not sure what this is. original #27ae60 is green. */
-/*
-nav.demo-nav a {
-    font-size:19px;
-    display:inline-block;
-    text-align:center;
-    font-family:'Lato',sans-serif;
-    color:#27ae60;
-    font-weight:400;
-    padding:5px 15px;
-    text-transform:uppercase;
-    border-radius:2px;
-    letter-spacing:1px;
-    text-decoration:none;
-    margin-right:10px;
-    border:2px solid #ecf0f1;
-    border-radius:none
-}
-*/
-/* This changed charactorisitcs of a main button for mouseover or selection. original #27ae60 is green. original #ecf0f1 is very light green. */
+
+/* This changed charactorisitcs of a main button for mouseover or selection. original #27ae60 is green. 
+original #ecf0f1 is very light green. not sure if this is for the buttons i already cut. */
 nav a.active,nav a:hover {
     background:#ecf0f1;
     color:#27ae60
@@ -123,47 +99,25 @@ header {
     padding:23px 0
 }
 
-
+/* the next two blocks ensure my name and title are centered */
 div.name-title-div {
     height:250px;
     position: relative
 }
 
-
 img.name-title {
-    margin: 0;
-    background: red;
-    position: absolute;
-	width: 100%;
-	max-width: 700px;
-	height: auto;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
-
-/*
-img.name-title {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	max-width: 700px;
-	height: auto;
-    vertical-align: middle;
-}
-
-div.name-title-div img {
     margin: 0;
     background: yellow;
     position: absolute;
+	width: 100%;
+	max-width: 700px;
+	height: auto;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
-*/
+
 nav.main-nav {
     background:#fff;
     height:60px;
@@ -182,10 +136,9 @@ nav.main-nav a {
     font-size:20px;
     text-decoration:none;
     display:inline-block;
-    padding:10px 19px; 	/* change first number from 15 to 10. */
+    padding:15px 19px; 	/* change first number from 15 to 10, then changed it back. */
     color:#27ae60;
 }
-
 
 nav.main-nav.stickytop {
     position:fixed;
