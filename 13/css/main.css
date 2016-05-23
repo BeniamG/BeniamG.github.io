@@ -107,7 +107,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: yellow;    /********** changed this property to to test other changes **********/
+    background: red;    /********** changed this property to to test other changes **********/
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -121,9 +121,15 @@ img.name-title {
 /***********************************************************************************************/
 /* NAV */
 /***********************************************************************************************/
+/* MOVED FROM AFTER nav.main-nav.stickytop It might make sense to move this up given the order of the html: 1.container 2.main-nav 3.ul 4.li 5.current. */
+.container {
+    display: inline;
+    margin:0 auto;  /* this might need a bottom margin, after the auto */
+}
+
 nav.main-nav {
     background:#fff;
-    height:40px;   /* changed from 60px to 40px */
+    height:50px;   /* changed from 60px to 50px */
     border-bottom:1px solid #dadada;
     text-align: center;
 }
@@ -142,16 +148,15 @@ nav.main-nav a {
     color:#27ae60;
 }
 
+/***********************************************************************************************/
+/* STICKY NAV */
+/***********************************************************************************************/
 nav.main-nav.stickytop {
     position:fixed;
     top:0;
     width: 100%; 
 }
 
-.container {
-    display: inline;
-    margin:0 auto;  /* this might need a bottom margin, after the auto */
-}
 
 /***********************************************************************************************/
 /* CONTENT */
