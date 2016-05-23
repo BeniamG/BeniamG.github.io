@@ -122,7 +122,7 @@ img.name-title {
 
 nav.main-nav {
     background:#fff;
-    height:50px;  /* changing this does seem to fix the default menu size but screws up other layouts */
+    height:60px;  /* orig 60px - changing this does seem to fix the default menu size but screws up other layouts */
     border-bottom:1px solid #dadada;
     text-align: center;
 }
