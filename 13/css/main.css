@@ -101,13 +101,13 @@ header {
 
 /* the next two blocks ensure my name and title are centered */
 div.name-title-div {
-    height:200px; /* changed from 250 */
+    height:250px; /* changed from 250 */
     position: relative
 }
 
 img.name-title {
     margin: 0;
-    background: red;
+    background: blue;
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -128,8 +128,8 @@ nav.main-nav {
     text-align: center;
 }
 
-/* This makes it a flat menu (display: inline-block).  The padding elements screw up display. */
-nav.main-nav li {
+/* This makes it a flat menu (display: inline-block).  Changed from li. The padding elements screw up display. */
+nav.main-nav ul {
 	display: inline-block;
 }
 
