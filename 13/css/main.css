@@ -48,7 +48,7 @@ textarea {
 
 /* This dictates the background color and features of the main body of the page */
 body {
-    font:16px/1.5 'Raleway',Arial,sans-serif;
+    font:16px/1.5 'Raleway',Arial,sans-serif; /* font-size/line-height */
     color:#fff;
     margin:0;
     padding:0
@@ -96,7 +96,7 @@ nav a.active,nav a:hover {
 header {
     height:250px;
     background:#2ecc71;
-    padding:230px 0;  /* Playing with this to test spacing of menu. Originally 23px */
+    padding:23px 0;  /* This doesn't solve the spacing issue for the menu */
 }
 
 /* the next two blocks ensure my name and title are centered */
@@ -107,7 +107,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: green;
+    background: yellow;
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -123,7 +123,7 @@ img.name-title {
 /***********************************************************************************************/
 nav.main-nav {
     background:#fff;
-    height:60px;
+    height:40px;   /* changed from 60px to 40px */
     border-bottom:1px solid #dadada;
     text-align: center;
 }
