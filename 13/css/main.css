@@ -100,7 +100,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: green;    /********** changed this property to to test other changes **********/
+    background: orange;    /********** changed this property to to test other changes **********/
     position: absolute;
 	width: 100%;
 	max-width: 700px;
