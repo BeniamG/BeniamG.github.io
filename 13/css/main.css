@@ -73,7 +73,7 @@ h2 {
     margin-left:-20px
 }
 
-/* I added this class for the subheading below my name. */
+/* I added this class for the subheading below my name. This is relevant only when that is text not an image. */
 h3 {
     font-size:20px;
     font-weight:300;
@@ -90,7 +90,7 @@ nav a.active,nav a:hover {
 }
 
 /***********************************************************************************************/
-/* HEADER AND NAV */
+/* HEADER */
 /***********************************************************************************************/
 /* Not sure what this is. original #2ecc71 is green. */
 header {
@@ -107,7 +107,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: blue;
+    background: green;
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -118,6 +118,9 @@ img.name-title {
     transform: translate(-50%, -50%) 
 }
 
+/***********************************************************************************************/
+/* NAV */
+/***********************************************************************************************/
 nav.main-nav {
     background:#fff;
     height:60px;
@@ -128,8 +131,6 @@ nav.main-nav {
 /* This makes it a flat menu (display: inline-block).  The padding elements screw up display. */
 nav.main-nav li {
 	display: inline-block;
-/*	float: left;   */
-/*	padding: 10px  */
 }
 
 nav.main-nav a {
@@ -143,6 +144,7 @@ nav.main-nav a {
 
 nav.main-nav.stickytop {
     position:fixed;
+    height:60px;    /* added this.  could delete this if needed. */
     top:0;
     width: 100%; 
 }
@@ -156,7 +158,6 @@ nav.main-nav.stickytop {
 /* CONTENT */
 /***********************************************************************************************/
 .content {
-/*    margin:auto;  This tries to center the main body text. */
 	color:#222;
     padding:50px;
 	max-width:700px;
