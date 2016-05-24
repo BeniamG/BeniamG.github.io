@@ -179,11 +179,11 @@ nav.main-nav.stickytop {
 /* RESPONSIVE */
 /***********************************************************************************************/
 @media all and (max-width: 600px) { 
-/* I added this header section to integrate original styling back in, not sure it matters, could eliminate. */ 
+/* I added this header section to integrate original styling back in, not sure it matters, could eliminate.  
     header {
            padding:5px 0 55px;
        }
-
+*/
 /* This is from the dropdown menu script.  Changed div from main-nav to continer */ 
 	div.container {
 /*        height:60px;   I added this to integrate original styling back in */ 
