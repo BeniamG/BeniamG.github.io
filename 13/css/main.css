@@ -196,18 +196,16 @@ nav.main-nav.stickytop {
 	}	
 		
 	nav.main-nav ul {
-	    margin: 0;
-	    background: green;    /********** changed this property to to test other changes **********/
-	    position: absolute;
-		width: 50%;
-		height: auto;
-	    top: 50%;
-	    left: 50%;
-	    margin-right: -50%;
-	    transform: translate(-50%, -50%);
-		background: #fff url(/images/icon-menu.png) no-repeat 10px 11px;
+		width: 180px;
+		padding: 5px 0;
+		position: absolute;
+		top: 0;
+		left: auto;
+		right: 0;
+		border: solid 1px #aaa;
+		background: #fff url(images/icon-menu.png) no-repeat 10px 11px;
 		border-radius: 5px;
-		
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
 	}
 	nav.main-nav li {
 		display: none; /* hide all <li> items */
