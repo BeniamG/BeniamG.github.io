@@ -61,7 +61,7 @@ h1 {
     font-weight:700
 }
 
-/* MAYBE This color marks the background of the header. original #27ae60 is green. */
+/* this was probably for the middle word in the original text header. original #27ae60 is green. */
 span {
     color:#27ae60;
     font-weight:700
@@ -158,6 +158,7 @@ nav a:hover {
 /***********************************************************************************************/
 nav.main-nav.stickytop {
     position:fixed;
+    height:60px;  /* I added this in the hopes of keeping the sticky top the right height */
     top:0;
     width: 100%; 
 }
