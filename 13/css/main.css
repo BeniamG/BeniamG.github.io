@@ -100,7 +100,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: yellow;    /********** changed this property to to test other changes **********/
+    background: green;    /********** changed this property to to test other changes **********/
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -219,7 +219,7 @@ nav.main-nav.stickytop {
 	}
 	nav.main-nav a {
 		display: block;
-		padding: 5px 5px 5px 32px;
+		padding: 5px 5px 5px 5px; /* changed from 32 to 5 */
 		text-align: center;
 	}
 	nav.main-nav .current a {
