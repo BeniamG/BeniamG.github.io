@@ -100,7 +100,7 @@ div.name-title-div {
 
 img.name-title {
     margin: 0;
-    background: orange;    /********** changed this property to to test other changes **********/
+    background: blue;    /********** changed this property to to test other changes **********/
     position: absolute;
 	width: 100%;
 	max-width: 700px;
@@ -198,8 +198,8 @@ nav.main-nav.stickytop {
 	nav.main-nav ul {
 		margin-left: auto;
 		margin-right: auto;
-/*		position: absolute;
 		width: 50%;
+/*		position: absolute;
 		padding: 5px 0;
 		top: 0;
 		left: auto;
