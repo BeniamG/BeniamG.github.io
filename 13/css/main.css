@@ -124,6 +124,7 @@ nav.main-nav {
     background:#fff;
     height:60px;  /* orig 60px - changing this does seem to fix the default menu size but screws up other layouts */
     border-bottom:1px solid #dadada;
+    border-top:3px solid orange;
     text-align: center;
 }
 
@@ -179,11 +180,6 @@ nav.main-nav.stickytop {
 /* RESPONSIVE */
 /***********************************************************************************************/
 @media all and (max-width: 600px) { 
-/* I added this header section to integrate original styling back in, not sure it matters, could eliminate.  
-    header {
-           padding:5px 0 55px;
-       }
-*/
 /* This is from the dropdown menu script.  Changed div from main-nav to continer */ 
 	div.container {
 /*        height:60px;   I added this to integrate original styling back in */ 
