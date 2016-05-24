@@ -149,7 +149,7 @@ nav a.active {
 }
 
 nav a:hover {
-    background:red;
+    background:blue;
     color:#27ae60
 }
 
