@@ -203,7 +203,7 @@ nav.main-nav.stickytop {
 		right: 0;
 		*/
 		border: solid 1px #aaa;
-		background: #fff url("/images/icon-menu.png") no-repeat 10px 11px;
+		background: #fff url("/13/images/icon-menu.png") no-repeat 10px 11px;
 		border-radius: 5px;
 		box-shadow: 0 1px 2px rgba(0,0,0,.3);
 	}
@@ -233,7 +233,7 @@ nav.main-nav.stickytop {
 		margin: 0 0 5px;
 	}
 	nav.main-nav ul:hover .current {
-		background: url("/images/icon-check.png") no-repeat 10px 7px;
+		background: url("/13/images/icon-check.png") no-repeat 10px 7px;
 	}	
 	
 }
