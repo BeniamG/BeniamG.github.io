@@ -146,7 +146,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:#7cc576;         /* This is the color for the link background */
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
