@@ -1,0 +1,167 @@
+/* from old code */
+/*    header {
+        padding:5px 0 55px;
+    }
+  
+    nav.main-nav {
+        height:55px;
+    }
+*/ 
+/*    .container {
+        margin:0 auto;
+        width:50%;
+    }
+*/
+
+/* the next two blocks ensure my name and title are centered */
+div.name-title-div {
+    height:250px; /* experiemented with this and changed it back */
+    position: relative
+}
+
+img.name-title {
+    margin: 0;
+    background: orange;    /********** changed this property to to test other changes **********/
+    position: absolute;
+	width: 100%;
+	max-width: 700px;
+	height: auto;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+	
+/* as of 2:00pm Monday May 23 */
+
+/***********************************************************************************************/
+/* RESPONSIVE */
+/***********************************************************************************************/
+@media all and (max-width: 600px) { 
+/* I added this header section to integrate original styling back in, not sure it matters, could eliminate. */ 
+    header {
+           padding:5px 0 55px;
+       }
+
+/* This is from the dropdown menu script */ 
+	nav.main-nav {
+        height:55px;  /* I added this to integrate original styling back in */ 
+		position: relative;
+		min-height: 30px;
+	    text-align: center;
+		margin: 0;
+	}	
+	nav.main-nav ul {
+		width: 180px;
+/*		padding: 5px 0;  */
+		position: absolute;
+/*	    left: 0;         */
+	    top: 10px;
+	    width: 50%;          
+	    text-align: center;
+/*		top: 0;   */
+		left: auto;   
+/*		right: 0;  */
+		border: solid 1px #aaa;
+		background: #fff url(images/icon-menu.png) no-repeat 10px 11px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+		margin: 0;
+	}
+	nav.main-nav li {
+		display: none; /* hide all <li> items */
+		margin: 0;
+	}
+	nav.main-nav .current {
+		display: block; /* show only current <li> item */
+	}
+	nav.main-nav a {
+		display: block;
+		padding: 5px 5px 5px 32px;
+		text-align: center;
+	}
+	nav.main-nav .current a {
+		background: none;
+		color: #666;
+	}
+
+	/* on nav hover */
+	nav.main-nav ul:hover {
+		background-image: none;
+	}
+	nav.main-nav ul:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	nav.main-nav ul:hover .current {
+		background: url(images/icon-check.png) no-repeat 10px 7px;
+	}	
+	
+}
+
+/* as of 5:30pm Monday May 23 */
+
+/***********************************************************************************************/
+/* RESPONSIVE */
+/***********************************************************************************************/
+@media all and (max-width: 600px) { 
+/* I added this header section to integrate original styling back in, not sure it matters, could eliminate. */ 
+    header {
+           padding:5px 0 55px;
+       }
+
+/* This is from the dropdown menu script.  Changed div from main-nav to continer */ 
+	div.container {
+        height:60px;  /* I added this to integrate original styling back in */ 
+		position: relative;
+		/*
+		min-height: 30px;
+	    text-align: center;
+		margin: 0;
+		*/
+	}	
+		
+	nav.main-nav ul {
+	    margin: 0;
+	    background: green;    /********** changed this property to to test other changes **********/
+	    position: absolute;
+		width: 50%;
+		height: auto;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%);
+		background: #fff url(/images/icon-menu.png) no-repeat 10px 11px;
+		border-radius: 5px;
+		
+	}
+	nav.main-nav li {
+		display: none; /* hide all <li> items */
+		margin: 0;
+	}
+	nav.main-nav .current {
+		display: block; /* show only current <li> item */
+	}
+	nav.main-nav a {
+		display: block;
+		padding: 5px 5px 5px 32px;
+		text-align: center;
+	}
+	nav.main-nav .current a {
+		background: none;
+		color: #666;
+	}
+
+	/* on nav hover */
+	nav.main-nav ul:hover {
+		background-image: none;
+	}
+	nav.main-nav ul:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	nav.main-nav ul:hover .current {
+		background: url("/images/icon-check.png") no-repeat 10px 7px;
+	}	
+	
+}

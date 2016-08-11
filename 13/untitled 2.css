@@ -1,0 +1,145 @@
+/***********************************************************************************************/
+/* RESPONSIVE */
+/***********************************************************************************************/
+
+@media all and (min-width: 360px) and (max-width: 480px) { 
+    header {
+        padding:5px 0 55px;
+    }
+    
+    nav.main-nav a {
+        font-size:17px;
+    }
+    
+    nav.main-nav {
+        height:55px;
+    }
+
+    .container {
+        margin:0 auto;
+        width:50%;
+    }
+    
+    .content {
+/*         width:80%;    I played with adding this*/
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    header {
+        padding:5px 0 55px;
+    }
+    
+    nav.main-nav a {
+        font-size:17px;
+    }
+    
+    nav.main-nav {
+        height:55px;
+    }
+    
+    .container {
+        width:92%;
+    }
+
+    .content {
+/*        width:80%;  I played with adding this */
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        padding:55px 0 25px; /* I changed these */
+    }
+    
+	h1 {
+	    font-size:30px;
+	}
+	
+	h3 {
+	    font-size:15px;
+	}
+	
+    nav.main-nav a {
+        font-size:10px;
+	    padding:20px 10px;
+    }
+    
+    nav.main-nav {
+        height:55px;
+    }
+    
+    .container {
+        width:92%;
+    }
+
+    .content {
+/*        width:80%;  I played with adding this */
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+}
+
+
+
+
+
+
+
+
+
+    -webkit-column-count:3;
+/* Chrome, Safari, Opera */
+    -moz-column-count:3;
+/* Firefox */
+    column-count:3;
+    -webkit-column-gap:40;
+    column-gap:40px;
+
+
+
+
+
+    .content {
+/*         width:80%;    I played with adding this*/
+        -webkit-column-count:1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count:1;
+        /* Firefox */
+        column-count:1;
+    }
+
+
+
+
+
+
+	img.name-title {
+		display: block;
+		background: yellow;
+	    position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		max-width: 700px;
+		height: auto;
+	    vertical-align: middle;
+	    position: relative;
+	    top: 50%;
+	}
