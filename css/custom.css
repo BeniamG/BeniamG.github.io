@@ -1,1 +1,8 @@
 /* your styles go here */
+
+/* I found this http://bootstrapious.com/p/black-and-white which is said to fix the iphone background picture issue. */
+@media (max-width: 992px) {
+.intro {
+background-attachment: scroll;
+}
+}
